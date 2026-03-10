@@ -98,7 +98,7 @@ The notebook expects data in Google Drive under the path:
 
 Update the data path in the notebook if your structure differs.
 
-##📝 Notebook Sections
+## 📝 Notebook Sections
 Google Drive Mount: Connect to Google Drive for data access
 Importing Libraries: Load all required dependencies
 Energy Data Preparation:
@@ -111,7 +111,7 @@ Data Analysis: Descriptive statistics and visualizations
 Time Series Analysis: ACF/PACF plots and stationarity tests
 Forecasting Models: Implementation of ARIMA, SARIMA, and LSTM models
 
-##📊 Output
+## 📊 Output
 The analysis produces:
 
 Combined energy dataset with normalized consumption metrics
@@ -119,13 +119,13 @@ Time series visualizations showing consumption trends
 Model predictions and forecasting accuracy metrics
 Weather-energy correlation insights
 
-##🔍 Key Findings
+## 🔍 Key Findings
 Seasonal Patterns: Clear seasonal variations in energy consumption
 Household Adoption: Gradual increase in smart meter adoption from 13 to 5,541 households
 Normalization Impact: Per-household metrics provide more reliable forecasting baseline
 Data Quality: Starting with only 13 households in November 2011, reaching full deployment over time
 
-##🔧 Future Improvements
+## 🔧 Future Improvements
  Include weather data integration
  Advanced feature engineering (holidays, events)
  Ensemble forecasting methods
@@ -133,11 +133,11 @@ Data Quality: Starting with only 13 households in November 2011, reaching full d
  Model deployment for production use
  Explainability analysis (SHAP, LIME)
 
-##📚 References
+## 📚 References
 Smart Meters Initiative: EU-led program for energy infrastructure upgrade
 Dataset Source: London Data Store
 Time Series Forecasting: ARIMA/SARIMA methodology
 Deep Learning: LSTM networks for sequential data
 
-##👨‍💻 Author
+## 👨‍💻 Author
 Mohit Jain - @mohitjain2
