@@ -72,3 +72,72 @@ This project uses a dataset of 5,567 London households participating in the smar
 | Energy Range | 0.21 - 15.96 per household |
 
 ## 📁 Project Structure
+
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Python 3.7+
+- Jupyter Notebook
+- Google Colab (for cloud execution)
+
+### Installation
+
+1. Clone the repository:
+
+git clone https://github.com/mohitjain2/Energy-Consumption-Forecast.git
+cd Energy-Consumption-Forecast
+
+pip install pandas numpy matplotlib scikit-learn keras statsmodels
+
+jupyter notebook Energy_Consumption_Forecast.ipynb
+
+2. Data Setup
+The notebook expects data in Google Drive under the path:
+/content/drive/MyDrive/Colab Notebooks/Project Energy/Input/daily_dataset/daily_dataset/
+
+Update the data path in the notebook if your structure differs.
+
+##📝 Notebook Sections
+Google Drive Mount: Connect to Google Drive for data access
+Importing Libraries: Load all required dependencies
+Energy Data Preparation:
+Combine blocks into single dataframe
+Calculate energy sums
+Household Normalization:
+Account for varying household counts across days
+Create per-household metrics
+Data Analysis: Descriptive statistics and visualizations
+Time Series Analysis: ACF/PACF plots and stationarity tests
+Forecasting Models: Implementation of ARIMA, SARIMA, and LSTM models
+
+##📊 Output
+The analysis produces:
+
+Combined energy dataset with normalized consumption metrics
+Time series visualizations showing consumption trends
+Model predictions and forecasting accuracy metrics
+Weather-energy correlation insights
+
+##🔍 Key Findings
+Seasonal Patterns: Clear seasonal variations in energy consumption
+Household Adoption: Gradual increase in smart meter adoption from 13 to 5,541 households
+Normalization Impact: Per-household metrics provide more reliable forecasting baseline
+Data Quality: Starting with only 13 households in November 2011, reaching full deployment over time
+
+##🔧 Future Improvements
+ Include weather data integration
+ Advanced feature engineering (holidays, events)
+ Ensemble forecasting methods
+ Real-time prediction pipeline
+ Model deployment for production use
+ Explainability analysis (SHAP, LIME)
+
+##📚 References
+Smart Meters Initiative: EU-led program for energy infrastructure upgrade
+Dataset Source: London Data Store
+Time Series Forecasting: ARIMA/SARIMA methodology
+Deep Learning: LSTM networks for sequential data
+
+##👨‍💻 Author
+Mohit Jain - @mohitjain2
